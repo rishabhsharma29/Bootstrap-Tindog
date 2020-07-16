@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 #title{
     background-color: #ff4c68;
@@ -10,6 +11,17 @@ h1{
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .container-fluid{
@@ -33,7 +45,7 @@ h1{
 }
 
 .container-fluid{
-    padding: 3% 15%; 
+    padding: 3% 15% 7%; 
 }
 
 /* Download Button */
@@ -43,16 +55,21 @@ h1{
 
 /* Title Image */
 .title-image{
-    margin-left: 3rem;
     transform: rotate(25deg);
     width: 60%;
-    overflow: visible;
+    position: absolute;
+    right: 30%
 }
 
 /* Features */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
 .features-box{
-    padding: 7% 20%;
-    text-align: center;
+    padding: 4.5%;
 }
 
 .icon{
@@ -64,12 +81,51 @@ h1{
     color: #ff4c68;
 }
 
-h3{
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
 .features-text{
     color: #8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 15%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-card-deck{
+    padding: 0 ;
+    margin-top: 4rem;
+}
+
+.pricing-card{
+    padding: 3% 2%;
 }
 
