@@ -4,7 +4,8 @@ body{
 }
 #title{
     background-color: #ff4c68;
-    color: white; 
+    color: white;
+    text-align: left; 
 }
 
 h1{
@@ -25,7 +26,7 @@ h3{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 7% 15%;
 } 
 
 /* Navigation Bar */
@@ -63,13 +64,8 @@ h3{
 
 /* Features */
 #features{
-    padding: 7% 15%;
     background-color: white;
     position: relative;
-}
-
-.features-box{
-    padding: 4.5%;
 }
 
 .icon{
@@ -90,10 +86,6 @@ h3{
 #testimonials{
     background-color: #ef8172;
     color: white;
-}
-
-.carousel-item{
-    padding: 7% 15%;
 }
 
 .testimonial-image{
@@ -121,7 +113,6 @@ h3{
 }
 
 .pricing-card-deck{
-    padding: 0 ;
     margin-top: 4rem;
 }
 
@@ -129,3 +120,33 @@ h3{
     padding: 3% 2%;
 }
 
+/* Closing */
+#cta{
+    background-color: #ff4c68;
+}
+
+.closing{
+    color: white;
+}
+
+.closing-btn{
+    margin: 3rem 1rem 0;
+}
+
+/* Footer */
+.social{
+    margin: 10px 10px;
+}
+
+@media (max-width: 991px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
